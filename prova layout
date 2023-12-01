@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'angolo delle ricette</title>
     <style>
+
         body{
             margin: 0;
             padding: 0;
@@ -22,17 +23,25 @@
         .topbar{
             display: flex;
             justify-content: center;
+            background-image: linear-gradient(to top right, #ca9494 0%, #af9ae5 50%, #aacfef9d 100%);
+            
+            
+        }
+        h1{
+            color: #17e0107e;
             
         }
 
         h3{
             color: rgb(75, 87, 87);
             cursor: pointer;
+            
         }
 
         .container{
-            position: relative;
-            display: flex;
+            padding: 35px;
+         
+            display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
@@ -41,9 +50,14 @@
         .immagine{
             display: flex;
             flex-direction: column;
-            width:25vh;
-            height:25vh;
+            width: 320px;;
             gap: 10px;
+            margin-bottom: 5px;
+            border: outset;
+            border-radius: 7px;
+            padding: 15px;
+            
+            
         }
 
         ul{
@@ -53,7 +67,31 @@
 
 h2{
     margin: 0;
+    color: black;
+    background-image: linear-gradient(to top right, #FFFFFF 0%, #4e15df 50%, #AACFEF 100%);
+
 }
+
+
+footer{
+    background-color:grey;
+}
+a{
+    text-decoration: none;   
+}
+
+
+
+a:visited {
+  color: rgba(203, 4, 4, 0.608);
+}
+
+a:hover {
+  color: rgba(218, 216, 230, 0.512)28, 113, 0);}
+
+  a:active {
+  color: blue;}
+
     </style>
 </head>
 
@@ -70,8 +108,11 @@ h2{
 <div class="container"> 
 
     <div class="immagine">
-        <img src="assets/Hemingway-Daiquiri.jpg"/>
-        <h2> Ingredienti</h2>
+        
+        <img src="img/Hemingway-Daiquiri.jpg">
+
+        <a href="https://www.liquor.com/recipes/hemingway-daiquiri/">
+        <h2> Ingredienti</h2> </a>
          
         <ul>
             <li>
@@ -91,8 +132,12 @@ h2{
     </div>
 
     <div class="immagine">
-        <img src="assets/Hemingway-Daiquiri.jpg"/>
-        <h2> Ingredienti</h2>
+
+    
+        <img src="img/Hemingway-Daiquiri.jpg">
+
+        <a href="https://www.liquor.com/recipes/hemingway-daiquiri/">
+        <h2> Ingredienti</h2></a>
          
         <ul>
             <li>
@@ -112,8 +157,9 @@ h2{
 
     </div>
     <div class="immagine">
-        <img src="assets/Hemingway-Daiquiri.jpg"/>
-        <h2> Ingredienti</h2>
+        <img src="img/Hemingway-Daiquiri.jpg">
+        <a href="https://www.liquor.com/recipes/hemingway-daiquiri/">
+        <h2> Ingredienti</h2></a>
          
         <ul>
             <li>
@@ -133,8 +179,9 @@ h2{
 
     </div>
     <div class="immagine">
-        <img src="assets/Hemingway-Daiquiri.jpg"/>
-        <h2> Ingredienti</h2>
+        <img src="img/Hemingway-Daiquiri.jpg">
+        <a href="https://www.liquor.com/recipes/hemingway-daiquiri/">
+        <h2> Ingredienti</h2></a>
          
         <ul>
             <li>
@@ -154,8 +201,9 @@ h2{
 
     </div>
     <div class="immagine">
-        <img src="assets/Hemingway-Daiquiri.jpg"/>
-        <h2> Ingredienti</h2>
+        <img src="img/Hemingway-Daiquiri.jpg">
+        <a href="https://www.liquor.com/recipes/hemingway-daiquiri/">
+        <h2> Ingredienti</h2></a>
          
         <ul>
             <li>
@@ -175,8 +223,54 @@ h2{
 
     </div>
     <div class="immagine">
-        <img src="assets/Hemingway-Daiquiri.jpg"/>
-        <h2> Ingredienti</h2>
+
+        <img src="img/Hemingway-Daiquiri.jpg">
+        <a href="https://www.liquor.com/recipes/hemingway-daiquiri/">
+        <h2> Ingredienti</h2></a>
+         
+        <ul>
+            <li>
+                rum
+            </li>
+            <li>
+                maraschino
+            </li>
+            <li>
+                pompelmo rosa
+            </li>
+            <li>
+                lime j.
+            </li>
+        </ul>
+    
+
+    </div>
+    <div class="immagine">
+        <img src="img/Hemingway-Daiquiri.jpg">
+        <a href="https://www.liquor.com/recipes/hemingway-daiquiri/">
+        <h2> Ingredienti</h2></a>
+         
+        <ul>
+            <li>
+                rum
+            </li>
+            <li>
+                maraschino
+            </li>
+            <li>
+                pompelmo rosa
+            </li>
+            <li>
+                lime j.
+            </li>
+        </ul>
+    
+
+    </div>
+    <div class="immagine">
+        <img src="img/Hemingway-Daiquiri.jpg">
+        <a href="https://www.liquor.com/recipes/hemingway-daiquiri/">
+        <h2> Ingredienti</h2></a>
          
         <ul>
             <li>
@@ -198,6 +292,11 @@ h2{
     
 
 </div>
+
+<footer>
+    <p>Author: Federico Lo Presti<br>
+    <a href="mailto:hege@example.com">loprerico91@gmail.com</a></p>
+  </footer>
 
     
     
