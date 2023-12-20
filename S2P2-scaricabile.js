@@ -40,17 +40,16 @@ let utenteCheEffettuaLAcquisto = amy //cambia il valore qui per provare se il tu
 
 
 
-let totaleCarrello =47+5+40;
+let totaleCarrello = 47+5;
 
 
 for (let i = 0; i < prices.length; i++) {
 
   let cash = totaleCarrello + shippingCost;
-  console.log('il tuo totale è :' + "" + cash + "€" );
+  console.log('il tuo totale è :' + "" + cash + "€");
 
 
 }
-
 
 
 if (utenteCheEffettuaLAcquisto.isAmbassador) {
@@ -62,19 +61,11 @@ if (utenteCheEffettuaLAcquisto.isAmbassador) {
 } else {
   console.log('non hai diritto agli sconti');
 
-}
+} if (totaleCarrello >= 100); 
 
-/*if (utenteCheEffettuaLAcquisto <= 100) {
+let noShipping = totaleCarrello - shippingCost;
 
-totaleCarrello + shippingCost;
-
-  console.log('aggiungi un articolo per avere la spedizione gratuita')
-
-} else{
-  console.log('per poco')
-}
-*/
-
+  console.log('la tua spedizione sarà gratuita');
 
 
 
