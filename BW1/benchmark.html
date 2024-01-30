@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benchmark</title>
+    <link rel="stylesheet" href="./css/benchmarkStyle.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./css/assets/epicode_logo.png" alt="Epicode Logo">
+
+        <div id="countdownContainer">
+            <svg>
+                <circle id="behindCircle" cx="50%" cy="50%" r="60"></circle>
+                <circle id="frontCircle" cx="50%" cy="50%" r="60" pathLength="1"></circle>
+            </svg>
+            <p class="countdownSec">SECONDS</p>
+            <p id="countdown"></p>
+            <p class="countdownRem">REMAINING</p>
+        </div>
+    </header>
+
+    <main>
+        <div id="questionAndAnswerCont">
+            <h1 id="question"></h1>
+        </div>
+    </main>
+
+    <footer>
+        <p id="indexPage"></p>
+        <button id="nextBtn">Next</button>
+    </footer>
+
+    <script src="./js/globalData.js"></script>
+    <script src="./js/benchmarkScript.js"></script>
+</body>
+
+</html>

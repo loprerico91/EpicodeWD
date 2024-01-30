@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main {
+    min-height: calc(100vh - 360px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 140px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+svg {
+    width: 130px;
+    height: 130px;
+    fill: none;
+    position: absolute;
+    top: -6px;
+}
+
+#logo {
+    width: 200px;
+    margin-top: 30px;
+}
+
+#behindCircle {
+    stroke: gray;
+    stroke-width: 10px;
+    stroke-opacity: 0.4;
+}
+
+#frontCircle {
+    stroke: #00FFFF;
+    stroke-width: 10px;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    stroke-dasharray: 1;
+}
+
+#countdownContainer {
+    height: 150px;
+    width: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.countdownSec {
+    margin: 0;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+#countdown {
+    margin: 0;
+    font-size: 50px;
+    min-height: 58px;
+    font-family: "Inter", sans-serif;
+}
+
+.countdownRem {
+    margin: 0;
+    font-size: 8px;
+    font-family: "Inter", sans-serif;
+}
+
+#questionAndAnswerCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#question {
+    height: 100px;
+    max-width: 300px;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: large;
+    font-weight: normal;
+}
+
+#answersContainer {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonAnswer {
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.buttonAnswerClicked {
+    background-color: #D20094;
+}
+
+.radioButtonContainer {
+    display: flex;
+    align-items: center;
+    width: 65px;
+    gap: 10px;
+}
+
+.radioAnswer {
+    cursor: pointer;
+
+}
+
+.radioLabel {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+#indexPage {
+    margin: 0;
+}
+
+#indexPage span {
+    color: #D20094;
+}
+
+#nextBtn {
+    font-size: large;
+    color: white;
+    background-color: #D20094;
+    border: none;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    svg {
+        top: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        position: relative;
+    }
+
+    #logo {
+        width: 200px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    #questionAndAnswerCont {
+        gap: 115px;
+    }
+
+    #question {
+        max-width: 1000px;
+        font-size: 60px;
+    }
+
+    #answersContainer {
+        height: 200px;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 60px;
+        row-gap: 0;
+    }
+
+    .buttonAnswer {
+        height: 70px;
+        width: 400px;
+        font-size: large;
+    }
+
+    .radioAnswer {
+        width: 30px;
+    }
+
+    .radioLabel {
+        font-size: 30px;
+    }
+
+    #nextBtn {
+        position: absolute;
+        right: 20%;
+        bottom: 31%;
+        font-size: large;
+    }
+
+    #indexPage {
+        font-size: large
+    }
+}
