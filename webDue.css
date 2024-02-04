@@ -1,0 +1,74 @@
+
+/* body{
+    background-image: url("assets/ali-kazal-walahB6h_sU-unsplash.jpg");
+}
+
+
+
+.navbar{
+    background-image: -webkit-linear-gradient(rgb(234, 243, 234), rgb(100, 100, 96));
+    color: rgb(33, 29, 29)
+    
+} */
+
+
+
+.head-banner{
+    width: 100%;
+
+    padding-top: 8rem;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2198251523/display_1500/stock-photo-growth-money-arrow-of-success-financial-business-on-coin-concept-investment-earnings-d-background-2198251523.jpg");
+   background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 90%;
+   
+}
+
+
+.sezione-icone{
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 2.5rem;
+    }
+    
+}
+
+svg{
+    
+    color: brown;
+    width: 15px;
+    font-size: larger;
+}
+
+button{
+    background-image: linear-gradient(rgba(236, 230, 230, 0.5),rgba(184, 189, 181, 0.248));
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    border-width: 1px;
+}
+input{
+   width: 150px;
+   text-align: center;
+    border-radius: 10px;
+    border-style:solid 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row{
+    margin-top: 15px;
+}
+
+h1{
+    background-image: linear-gradient(0deg, #ffffffd4, transparent);
+    font-size: 40px;
+    opacity: 120%;
+    color: #a52a2a;
+}
