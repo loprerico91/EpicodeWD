@@ -1,0 +1,60 @@
+.head-banner{
+   background-color: rgb(222, 224, 233);
+   padding-top: 8rem;
+   padding-bottom: 8rem;
+   background-image: url("W3-P1-Assets-Esercizi/assets/assets/avatar-1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: multiply;
+ 
+    
+}
+
+
+.sezione-icone{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    
+}
+
+svg{
+    font-size: 200px;
+}
+    
+.sezione-immagine  .immagine{
+    min-height: 30rem;
+}
+
+button{
+    width: auto;
+    height: 35px;
+    border:none;
+    border-radius: 5px;
+}
+.btnUno{
+    background-color: aqua;
+}
+
+.container-fluid{
+    margin-top: 10px;
+}
+
+img{
+    width: 90px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 55px;
+    font-size: 
+}
+
+
+
+@media screen and (min-width:768px){
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        
+    }
+
+}
+
